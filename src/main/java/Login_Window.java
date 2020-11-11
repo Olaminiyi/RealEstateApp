@@ -52,7 +52,7 @@ public class Login_Window extends javax.swing.JFrame {
    
 
        //  System.out.println(this.getClass().getResource("images/building.png"));
-       //add a bottom border to the jlabel tite
+       //add a bottom border to the jlabel title
        Border title_border = BorderFactory.createMatteBorder(0, 0, 3, 0, Color.RED);
        jLabel_Title.setBorder(title_border);
        
