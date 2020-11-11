@@ -31,7 +31,7 @@ public class MAIN_APP_WINDOW extends javax.swing.JFrame {
        Border appName_border = BorderFactory.createMatteBorder(0, 0, 3, 0, Color.white);
        jLabel_AppName.setBorder(appName_border);
        
-       //set border for the menu item
+       //set borders for the menu item of the main app
        Border  menu_items_border = BorderFactory.createMatteBorder(0, 0, 1, 0, new Color(255,153,0));
        jLabel_Property.setBorder(menu_items_border);
        jLabel_Client.setBorder(menu_items_border);
