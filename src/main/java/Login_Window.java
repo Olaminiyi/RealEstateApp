@@ -108,6 +108,11 @@ public class Login_Window extends javax.swing.JFrame {
                 jTextField_UsernameFocusLost(evt);
             }
         });
+        jTextField_Username.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField_UsernameActionPerformed(evt);
+            }
+        });
 
         jPasswordField.setForeground(new java.awt.Color(153, 153, 153));
         jPasswordField.setText("password");
@@ -117,6 +122,11 @@ public class Login_Window extends javax.swing.JFrame {
             }
             public void focusLost(java.awt.event.FocusEvent evt) {
                 jPasswordFieldFocusLost(evt);
+            }
+        });
+        jPasswordField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jPasswordFieldActionPerformed(evt);
             }
         });
 
@@ -212,7 +222,7 @@ public class Login_Window extends javax.swing.JFrame {
                 mainform.pack();
                 mainform.setExtendedState(JFrame.MAXIMIZED_BOTH);
                 this.dispose();
-                
+                //
             }
             else{
                 JOptionPane.showMessageDialog(null,"We need to show the ERROR MESSAGE");
@@ -268,6 +278,14 @@ public class Login_Window extends javax.swing.JFrame {
         }
           
     }//GEN-LAST:event_jPasswordFieldFocusLost
+
+    private void jTextField_UsernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField_UsernameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField_UsernameActionPerformed
+
+    private void jPasswordFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jPasswordFieldActionPerformed
 //
     /**
      * @param args the command line arguments
