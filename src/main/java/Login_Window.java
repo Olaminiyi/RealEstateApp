@@ -188,7 +188,7 @@ public class Login_Window extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton_LoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_LoginActionPerformed
-        // set the login button to validate username and password
+        // set the login button to validate username and password using the PreparedStament
         String username = jTextField_Username.getText();
         String password = String.valueOf(jPasswordField.getPassword());
         
@@ -216,6 +216,7 @@ public class Login_Window extends javax.swing.JFrame {
             if(rs.next())
             {
               //  JOptionPane.showMessageDialog(null,"We need to show the main form to the user");
+              // show the Main APP 
              
                 MAIN_APP_WINDOW mainform = new MAIN_APP_WINDOW();
                 mainform.setVisible(true);
