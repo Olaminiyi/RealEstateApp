@@ -17,7 +17,7 @@ public class P_TYPE {
     private String description;
     
     
-    //  refactoring to create the setter and getter
+    //  refactoring to create the setter and getter for the properties
 
     /**
      * @return the id
