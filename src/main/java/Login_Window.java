@@ -222,7 +222,7 @@ public class Login_Window extends javax.swing.JFrame {
                 mainform.pack();
                 mainform.setExtendedState(JFrame.MAXIMIZED_BOTH);
                 this.dispose();
-                //
+                // this will maximized the window
             }
             else{
                 JOptionPane.showMessageDialog(null,"We need to show the ERROR MESSAGE");
