@@ -72,7 +72,7 @@ public class P_TYPE {
         
     }
     
-    // create a function to insert - edit - remove type
+    // I created functions to insert - edit - remove type using PreparedStatement query for the database
     public boolean execTypeQuery(String queryType, P_TYPE type)
     {
         PreparedStatement ps;
