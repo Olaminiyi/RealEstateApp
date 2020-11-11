@@ -234,6 +234,7 @@ public class MAIN_APP_WINDOW extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    // set MouseEntered and MouseExited actions for the menu
     private void jLabel_PropertyMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel_PropertyMouseEntered
         jLabel_Property.setBackground(Color.white);
         jLabel_Property.setForeground(new Color(102,102,102));
