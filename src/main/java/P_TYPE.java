@@ -61,7 +61,7 @@ public class P_TYPE {
         this.description = DESCRIPTION;
     }
     
-    // create the class constructors
+    // I created the class constructors
     public P_TYPE(){}
     
     public P_TYPE(Integer ID, String NAME, String DESCRIPTION)
